@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.navigation{
+  padding-left: 80px;
+  border-bottom: 1px solid lightgray;
+
+}
+
+.navigation a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.cards{
+  display:flex; 
+  flex-direction: row;
+  justify-content: center;
+  width:100vw;
+  height:auto;
+  margin: 0 auto;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+  
+}
+
+.search:focus{
+  box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 2px solid rgba(81, 203, 238, 1)
+}
+
+.search input{
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  width:80vw;
+  height: 5vh;
+  padding-left: 40px;
+  font-size: 20px;
+}
